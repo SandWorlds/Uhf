@@ -1,0 +1,21 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "Uhf"
+include ':app'
+include ':module-port'
+include ':module-bt'
+include ':module-ble'
+include ':module-inventory'
+include ':module-rwl'
+include ':module-setting'
+include ':module-net'
+include ':module-sm7'
+include ':library-base'
+include ':library-res'
+include ':module-main'
